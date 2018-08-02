@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    app:columnCount="7">
+    <TextView
+        android:id="@+id/lat"
+        android:textColor="@color/black"
+        app:layout_gravity="center"
+        tools:text="SPLITS"/>
+    <TextView
+        android:id="@+id/split_space"
+        android:text=" "/>
+    <TextView
+        android:id="@+id/lon"
+        android:textColor="@color/black"
+        app:layout_gravity=""
+        tools:text="0"/>
+    <TextView
+        android:id="@+id/split_space2"
+        android:text=" "/>
+    <TextView
+        android:id="@+id/accuracy"
+        android:textColor="@color/black"
+        app:layout_gravity="center"
+        tools:text="000"/>
+    <TextView
+        android:id="@+id/split_space3"
+        android:text=" "/>
+    <TextView
+        android:id="@+id/timestamp"
+        android:textColor="@color/black"
+        app:layout_gravity="center"
+        tools:text="000"/>
+
+</android.support.v7.widget.GridLayout>
